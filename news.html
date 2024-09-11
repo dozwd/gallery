@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광화문 갤러리</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <h1><a href="./index.html">광화문 갤러리</a></h1>
+            <nav>
+                <ul class="gnb">
+                    <li><a href="./exhibition.html">EXHIBITION</a></li>
+                    <li><a href="./news.html">INFO</a></li>
+                    <li><a href="./rent.html">INQUIRY</a></li>
+                    <li><a href="./location.html">ABOUT</a></li>
+                    <li><a href="./contect.html">CONTACT</a></li>
+                    <!-- <li><form action=""><label for="input_search"><input type="text" placeholder="검색..."></label></form></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="news">
+            <!-- main txt -->
+            <div class="main_txt">
+                <h2>NEWS</h2>
+            </div>
+             <div class="board_top">
+                <p>총 <span>12</span> 개</p>
+                <form action="">
+                    <select name="" id="">
+                        <option value="">전체</option>
+                        <option value="">제목</option>
+                        <option value="">내용</option>
+                    </select>
+                    <div class="search">
+                        <input type="text" placeholder="검색어를 입력해 주세요.">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+             </div>
+             <!-- 표 만들기 -->
+             <table>
+                <colgroup>
+                    <col class="col1">
+                    <col class="col2">
+                    <col class="col3">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>등록일</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12</td>
+                        <td class="tit">갤러리광화, 2024 딜라이트 서울 미디어아트 전시개최</td>
+                        <td>2024.02.05</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td class="tit">서울의 과거와 현재 그리고 미래의 역동적 모습을 그리다 '2024 딜라이트 서울' 미디어 아트 1일 그랜드 오픈</td>
+                        <td>2024.02.01</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="tit">도시의 양면성과  공존 탐구 '2024 딜라이트 서울' </td>
+                        <td>2023.2.28</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="tit">미디어 아트 전시 '2024 딜라이트 서울'..."서울의 과거와 미래를 만나다"</td>
+                        <td>2023.12.27</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td class="tit">대호국에서 환혼술 체험..'환혼: 빛과 그림자' 미디어 아트 출시</td>
+                        <td>2023.04.25</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="tit">'K-판타지'환혼,몰입형 미디어 아트로 재탄생</td>
+                        <td>2023.04.25</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="tit">'환혼'세계관,전시회로 만나다</td>
+                        <td>2023.04.25</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="tit">레이저 빛으로 표현한 미디어 아트</td>
+                        <td>2023.01.17</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="tit">미디어 아트로 보는 서울의 모습</td>
+                        <td>2023.01.11</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="tit">서울 미디어아트로 재탄생···실감형 컨텐츠'서울 바이브' 전시회</td>
+                        <td>2024.02.05</td>
+                    </tr>
+                </tbody>
+             </table>
+             <div class="page">
+                <a href="./news.html"><i class="fa-solid fa-angles-left"></i></a>
+                <a href="./news.html"><i class="fa-solid fa-chevron-left"></i></a>
+                <a href="./news.html">1</a>
+                <a href="./newsn.html">2</a>
+                <a href="./newsn.html"><i class="fa-solid fa-angle-right"></i></a>
+                <a href="./newsn.html"><i class="fa-solid fa-angles-right"></i></a>
+             </div>
+             <div class="img"><a href="#"><img src="./images/upbtn.png" alt=""></a></div>
+        </section>
+    </main>
+    <footer>
+        <div class="inner">
+            <img src="./images/logoW2.png" alt="footerLogo">
+            <address>
+                서울특별시 종로구 새문안로 103 갤러리광화 <br>
+                TEL:070 - 8287 - 2208
+            </address>
+            <p>Copyright ⓒ 2023 by Gallery Gwanghwa. All Right Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"integrity="sha256-J8ay84czFazJ9wcTuSDLpPmwpMXOm573OUtZHPQqpEU="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+    header{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10; */
+    }
+    header .inner{
+        width: 1280px;
+        height: 110px;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;    
+        align-items: center;
+    }
+    header .inner h1 a{
+        text-indent: -9999px;
+        display: block;
+        width: 150px;
+        height: 66px;
+        background: url(../images/logoW2.png)no-repeat;
+        background-size: 150px 60px;
+    }
+    header .inner nav .gnb{
+        display: flex;
+        gap:80px;
+    }
+    header .inner nav .gnb li a{
+        color: #ffff;
+    }

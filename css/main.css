@@ -1,0 +1,493 @@
+/* MAIN PAGE */
+main{
+    width: 100%;
+}
+main section{
+    width: 1280px;
+    margin:0 auto;
+    padding-top: 100px;
+}
+main #main{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+main #main h2{
+    font-size: 50px;
+    font-weight: bold;
+    /* font-family: "Bebas Neue"; */
+}
+main #main .main_txt h2 strong{
+    display: block;
+    font-size: 70px;
+    margin:20px 0 40px 70px;
+}
+main #main .main_txt p{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 10px;
+}
+main #main .main_txt .btn button{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+main #main .main_txt .btn span{
+    margin-left: 10px;
+    font-size: 18px;
+}
+main #main .visual{
+    position: relative;
+}
+main #main .visual img{
+    /* border: 3px solid #ffff; */
+    border-radius: 300px 300px 0 0;
+}
+main #main .visual::before{
+    content: '';
+    width: 475px;
+    height: 667px;
+    border: 5px solid #fff;
+    border-radius: 300px 300px 0 0;
+    position: absolute;
+    left:  20px;
+    top: -20px;
+    z-index: -1;
+}
+
+/* EXHIBITION PAGE */
+main #exhibition {
+    /* border: 1px solid red; */
+    width: 1280px;
+    margin: 0 auto;
+}
+main #exhibition h2{
+    font-size: 50px;
+}
+main #exhibition h3{
+    font-size: 32px;
+    margin-top: 60px;
+    position: relative;
+}
+main #exhibition h3:after{
+    content: '';
+    width: 1180px;
+    height: 1px;
+    background: #ffff;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main #exhibition .wrap{
+    display: flex;
+    /* justify-content: space-between; */
+    /* border: 1px solid red; */
+    margin-top: 95px;
+    gap:120px;
+}
+main #exhibition .wrap img{
+    width: 358px;
+    height: 510px;
+    border: 1px solid #fff;
+    border-radius: 0px;
+}
+main #exhibition .wrap .guide .list li{
+    font-size: 16px;
+}
+main #exhibition .wrap  .visual{
+    position: relative;
+}
+main #exhibition .wrap .visual::before{
+    content: '';
+    width: 358px;
+    height: 510px;
+    border-radius: 358px;
+    transform: rotate(45deg);
+    top: 0;
+    left: 0;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    z-index:-1;
+    position: absolute;
+}
+main #exhibition .wrap  .guide{
+    margin-top: 45px;
+}
+main #exhibition .wrap  .guide h4{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+main #exhibition .wrap  .guide .list li{
+    display: flex;
+    gap:54px;
+    line-height: 40px;
+}
+main #exhibition .wrap  .guide .list li p{
+    font-size: 24px;
+}
+main #exhibition .wrap  .guide .list h5{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 24px;
+    position: relative;
+}
+main #exhibition .wrap  .guide .list li h5::before{
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 115px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main #exhibition .wrap  .guide .list li .last{
+    margin-left: 44px;
+}
+main #exhibition .wrap  .guide>p{
+    color: rgba(255, 255, 255, 0.5);
+    margin:40px 0 38px 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+main #exhibition .wrap  .guide .btn button{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+main #exhibition .wrap  .guide .btn  span{
+    margin-left: 10px;
+}
+
+/* INFO PAGE */
+main #news .main_txt h2{
+    font-size: 50px;
+}
+main #news .board_top{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 30px;
+}
+main #news .board_top p{
+    font-size: 24px;
+}
+main #news .board_top p span{
+    font-weight: bold;
+}
+main #news .board_top form  {
+    display: flex;
+    gap:32px;
+}
+main #news .board_top form  select{
+    width: 136px;
+    height: 26px;
+    border-bottom: 1px solid #ffff;
+    background: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffff;
+    outline: none;
+}
+main #news .board_top form  select option{
+    /* color: #222; */
+    background: black;
+}
+main #news .board_top form .search{
+    width: 280px;
+    height: 26px;
+    border-bottom: 1px solid #ffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+main #news .board_top form input{
+    width: 240px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+main #news .board_top form .search button{
+    background: transparent;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+    /* margin-left: 55px; */
+}
+
+/* 표 테이블 */
+table{
+    width: 1280px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 70px;
+    color: rgba(255, 255, 255, 0.5);
+}
+table .col1{
+    width: 110px;
+}
+table .col2{
+    width: 1040px;
+}
+table .col3{
+    width: 130px;
+}
+table .tit{
+    text-align: left;
+    text-indent: 40px;
+}
+table tr th{
+    height: 70px;
+    border-top: 2px solid #ffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
+}
+table tbody tr td{
+    height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    vertical-align: middle;
+}
+.page{
+    text-align: center; 
+    margin-bottom: 95px;
+}
+.page a{
+    color: rgba(255, 255, 255, 0.5);
+}
+.page a:not(a:last-child){
+    margin-right: 30px;
+}
+
+/* Inquery Rent Page */
+main #rent .main_txt h2{
+    font-size: 50px;
+    position: relative;
+}
+main #rent .main_txt h2::before{
+    content: '';
+    width: 550px;
+    height: 2px;
+    background: #ffff;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+main #rent .main_txt p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+main #rent .process{
+    margin:260px 0 110px;
+}
+main #rent .process h3{
+    font-size: 20px;
+    position: relative;
+}
+main #rent .process h3::after{
+    content: '';
+    width: 145px;
+    height: 2px;
+    background: #ffff;
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+main #rent .process_in{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+main #rent .process_in li{
+    width: 170px;
+    height: 160px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px 0 30px 0;
+    position: relative;
+}
+
+main #rent .process_in li::before{
+    content: '';
+    width: 222px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+main #rent .process_in li::after{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #888888;
+    position: absolute;
+    top: -28px;
+    left: 0;
+    border-radius: 8px;
+}
+main #rent .process_in li p{
+    padding:30px 0 30px 0;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+}
+main #rent .process_in li svg{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+}
+
+/* ABOUT (LOCATION) PAGE */
+
+main #location .main_txt h2{
+    font-size: 50px;
+    margin-bottom: 59px;
+    position: relative;
+}
+main #location .main_txt h2::before{
+    content: '';
+    width: 550px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -36px;
+}
+main #location .main_txt>p{
+    font-size: 18px;
+    margin-bottom: 247px;
+}
+main #location .info{
+    display: flex;
+    gap:42px;
+    margin-bottom: 101px;
+}
+main #location .info .addr h3{
+    font-size: 25px;
+    color: #888888;
+    position: relative;
+    margin-bottom: 31px;
+}
+main #location .info h3::before{
+    content: '';
+    width: 120px;
+    height: 1px;
+    background: #ffff;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+}
+main #location .info .addr>p{
+    margin-bottom: 58px;
+}
+main #location .info .addr>p>span{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #93252e;
+}
+main #location .info .addr .subway li {
+    line-height: 31px;
+    list-style:circle;
+    margin-left: 18px;
+}
+main #location .info .addr .subway .last{
+    font-size: 14px;
+    color: #93252e;
+    margin-top: 23px;
+}
+
+/* CONTECT PAGE */
+main #contect .main_txt h2{
+    font-size: 50px;
+    margin-bottom: 59px;
+    position: relative;
+}
+main #contect .main_txt h2::before{
+    content: '';
+    width: 550px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+}
+main #contect .main_txt p{
+    margin-bottom: 226px;
+}
+main #contect h3 span{
+    color: #93252e;
+}
+main #contect .name{
+    display: flex;   
+    /* border: 1px solid red; */
+}
+main #contect .name .id{
+    margin-right: 600px;
+}
+main #contect input{
+    width: 585px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    margin-bottom: 47px;
+    color: #fff;
+}
+main #contect .in1{
+    margin-right: 99px;
+    color: #fff;
+}
+main #contect .email{
+    margin-bottom: 18px;
+}
+main #contect .mail{
+    /* border: 1px solid red; */
+    display: flex;
+}
+main #contect .mail .mail_1{
+    width: 390px;
+    margin-right: 32px;
+    color: #fff;
+}
+main #contect .mail .mail_2{
+    width: 390px;
+    margin-left: 32px;
+    color: #fff;
+
+}
+main #contect form select{
+    margin-left: 32px;
+    margin-top: 3px;
+    width: 390px;
+    height: 40px;
+    vertical-align: middle;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    margin-bottom: 1010px;
+}
+.img{
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    right: 61px;
+    bottom: 60px;
+    cursor: pointer;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}

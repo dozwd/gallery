@@ -1,0 +1,22 @@
+footer{
+    width: 100%;
+    background: #111111;
+}
+footer .inner{
+    width: 1280px;
+    height: 260px;
+    margin:0 auto;
+    /* border: 1px solid red; */
+    padding-top: 30px;
+}
+footer .inner img{
+    width: 110px;
+}
+footer .inner address{
+    margin-top: 35px;
+    line-height: 32px;
+}
+footer .inner p{
+     margin-top: 25px;
+     font-style: 14px;
+}
